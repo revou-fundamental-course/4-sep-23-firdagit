@@ -1,0 +1,151 @@
+body {
+	font-family: system-ui;
+}
+
+header {
+	background-color: #8ECDDD;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: #FFCC70;
+}
+
+h3 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: 23px;
+}
+
+h2 {
+	padding: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: #8ECDDD;
+}
+
+h4 {
+	color: white;
+}
+
+h5 {
+	text-align: center;
+	font-size: 23px;
+	margin-bottom: 0px;
+}
+
+img.tengah {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.subjudul {
+	text-align: center;
+}
+
+.btnatas1 {
+	border-radius: 5px;
+	font-weight: bold;
+	color: whitesmoke;
+	border: none;
+	justify-content: center;
+	height: 40px;
+	width: 1000px;
+	background-color: #8ECDDD;
+	cursor: pointer;
+}
+
+.btnatas {
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+	justify-content: center;
+	height: 40px;
+	width: 1000px;
+	cursor: pointer;
+	background-color: white;
+}
+
+.btnatas1:hover {
+	color: whitesmoke;
+	background-color: #FFCC70;
+}
+
+.btnatas1:active {
+	transform: translateY(1px);
+}
+
+
+input {
+	padding : 6px;
+	border: 1px solid black;
+	border-radius: 4px;
+	outline: none;
+}
+
+button {
+	padding: 7px 16px;
+	border-radius: 4px;
+	border : none;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #FFCC70;
+	font-size: 13px;
+}
+
+button:active {
+	transform: translateY(1px);
+}
+
+button:hover {
+	color: white;
+	background-color: #22668D;
+}
+
+
+input:focus {
+	border-color: #8ECDDD;
+}
+
+
+.luasinputsection {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.inputbutton {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	grid-gap: 5px;
+	margin-top: 10px;
+}
+
+.btnbawah {
+	color: white;
+	background-color: #22668D;
+}
+
+.btnbawah:hover {
+	background-color: #8ECDDD;
+	color: black;
+}
+
+.btnbawah1 {
+	color: white;
+
+}
+
+.btnbawah1:hover {
+	background-color: #8ECDDD;
+	color: black;
+}
